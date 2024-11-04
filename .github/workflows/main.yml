@@ -7,4 +7,6 @@ jobs:
       - name: First step
         run:  uname -a 
       - name: second  step
-        run: whoami"
+        run: ls
+      - name: Thhird step
+        run: date
